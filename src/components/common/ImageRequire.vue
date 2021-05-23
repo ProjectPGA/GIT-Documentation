@@ -1,8 +1,8 @@
 <template>
-  <v-img
+  <img
+    class="responsive-image"
     :src="require(`../../assets/${urlImage}`)"
     :alt="altImage"
-    max-width="800"
   />
 </template>
 
@@ -18,4 +18,11 @@ export default class ImageRequire extends Vue {
 }
 </script>
 
-<style scoped></style>
+<style scoped>
+.responsive-image {
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  margin: 10px 0 30px 0;
+}
+</style>

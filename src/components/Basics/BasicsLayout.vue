@@ -12,7 +12,7 @@
       information, and it is immutable in the commits you send:
     </p>
     <v-badge left overlap bordered icon="mdi-console-line" color="#f05033">
-      <v-card outlined min-width="23vw" class="styled-card">
+      <v-card outlined class="styled-card">
         <v-card-text class="styled-card_text">
           git config --global user.name "Name" <br />
           git config --global user.email email@example.com
@@ -42,6 +42,7 @@ export default class BasicsLayout extends Vue {}
 
 .styled-card {
   border: 2px solid #f05033;
+  min-width: 300px;
 }
 
 .styled-card_text {

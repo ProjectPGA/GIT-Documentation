@@ -1,5 +1,5 @@
 <template>
-  <v-sheet rounded="lg" class="text" height="90vh">
+  <v-sheet rounded="lg" class="text" min-height="90vh">
     <h1>What's Git?</h1>
     <p>
       Git is a free and open source distributed version control system designed
