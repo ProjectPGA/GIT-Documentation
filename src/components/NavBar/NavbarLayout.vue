@@ -1,6 +1,11 @@
 <template>
   <div>
     <v-app-bar app clipped-left height="70vh">
+      <v-app-bar-nav-icon
+        class="hamburger-icon"
+        @click.stop="drawer = !drawer"
+      ></v-app-bar-nav-icon>
+
       <v-spacer />
       <v-app-title class="navbar-title">OpenSlot Studio</v-app-title>
       <v-avatar>
@@ -10,7 +15,7 @@
       <v-spacer />
     </v-app-bar>
 
-    <v-navigation-drawer app clipped class="navigation-drawer">
+    <v-navigation-drawer v-model="drawer" app clipped class="navigation-drawer">
       <v-list nav>
         <v-list-item-group active-class="actived-list-item">
           <v-list-item to="/">
@@ -45,7 +50,9 @@ import { Component, Vue } from "vue-property-decorator";
 @Component({
   name: "NavbarLayout",
 })
-export default class NavbarLayout extends Vue {}
+export default class NavbarLayout extends Vue {
+  private drawer: boolean = false;
+}
 </script>
 
 <style lang="scss" scoped>
