@@ -47,6 +47,6 @@ export default class DescriptionLayout extends Vue {}
 
 <style lang="scss" scoped>
 .text {
-  padding: 40px 50px;
+  padding: 2.5rem 3.125rem;
 }
 </style>

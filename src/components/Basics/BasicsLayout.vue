@@ -35,14 +35,14 @@ import { Component, Vue } from "vue-property-decorator";
 export default class BasicsLayout extends Vue {}
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 .text {
-  padding: 40px 50px;
+  padding: 2.5rem 3.125rem;
 }
 
 .styled-card {
-  border: 2px solid #f05033;
-  min-width: 300px;
+  border: 0.125rem solid #f05033;
+  min-width: 18.75rem;
 }
 
 .styled-card_text {
@@ -53,7 +53,7 @@ export default class BasicsLayout extends Vue {}
   position: absolute;
   right: -6.5%;
   bottom: 16%;
-  border: 2px solid #f05033;
+  border: 0.125rem solid #f05033;
   color: #f05033;
 }
 </style>

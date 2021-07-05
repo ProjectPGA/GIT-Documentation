@@ -18,11 +18,11 @@ export default class ImageRequire extends Vue {
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 .responsive-image {
   width: 100%;
   height: auto;
-  max-width: 800px;
-  margin: 10px 0 30px 0;
+  max-width: 50rem;
+  margin: 0.625rem 0 1.875rem 0;
 }
 </style>

@@ -190,7 +190,7 @@ export default class WorkflowLayout extends Vue {}
 
 <style lang="scss" scoped>
 .text {
-  padding: 40px 50px;
+  padding: 2.5rem 3.125rem;
 }
 
 .orange-color {
@@ -198,6 +198,6 @@ export default class WorkflowLayout extends Vue {}
 }
 
 .margin-title {
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 </style>

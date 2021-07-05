@@ -25,7 +25,7 @@ export default class IconListComponent extends Vue {
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 .title-list {
   font-weight: bold;
   color: #f05033;
@@ -33,6 +33,6 @@ export default class IconListComponent extends Vue {
 
 .icon-list {
   color: #f05033;
-  margin-right: 10px;
+  margin-right: 0.625rem;
 }
 </style>

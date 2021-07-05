@@ -1,5 +1,6 @@
 <template>
   <div>
+    <!-- Navbar -->
     <v-app-bar app clipped-left height="70vh">
       <v-app-bar-nav-icon
         class="hamburger-icon"
@@ -15,6 +16,7 @@
       <v-spacer />
     </v-app-bar>
 
+    <!-- Sidebar -->
     <v-navigation-drawer v-model="drawer" app clipped class="navigation-drawer">
       <v-list nav>
         <v-list-item-group active-class="actived-list-item">
@@ -57,18 +59,18 @@ export default class NavbarLayout extends Vue {
 
 <style lang="scss" scoped>
 .navbar-title {
-  margin: 0 15px;
-  font-size: 30px;
+  margin: 0 0.938rem;
+  font-size: 1.875rem;
 }
 
 .actived-list-item {
   color: #ffffff !important;
   font-weight: bold;
   background: #f05033;
-  letter-spacing: 1px;
+  letter-spacing: 0.063rem;
 }
 
 .navigation-drawer {
-  padding-top: 5px;
+  padding-top: 0.313rem;
 }
 </style>
