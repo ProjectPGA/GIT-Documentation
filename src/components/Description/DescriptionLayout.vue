@@ -7,18 +7,18 @@
       efficiency. <br />This is huge definition for Git, lets analyze:<br />
     </p>
     <list-component
-      title="Control System:"
+      title="Control System"
       text="Git is used to store content, basically, code due to the
                     other features it provides."
     />
     <list-component
-      title="Version Control System:"
+      title="Version Control System"
       text="The code which is stored in Git keeps changing as more code
                     is added. So,the Version Control System helps in handling
                     this by maintaining a history of what changes have happened."
     />
     <list-component
-      title="Distributed Version Control System:"
+      title="Distributed Version Control System"
       text="Git has a remote repository which is stored in a server and
                     a local repository which is stored in the computer of each
                     developer."
