@@ -27,4 +27,4 @@ jobs:
     - run: npm run format:check
     - run: npm run lint
     - run: npm run build
-    - run: cp -a dist/* /var/www/html/dev/appointment-system/ 
+    - run: cp -a dist/* /var/www/html/dev/git-rules/ 
