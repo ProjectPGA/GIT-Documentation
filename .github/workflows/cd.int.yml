@@ -24,4 +24,4 @@ jobs:
     - run: npm install
     - run: npm ci
     - run: npm run build
-    - run: cp -a dist/* /var/www/html/int/appointment-system/ 
+    - run: cp -a dist/* /var/www/html/int/git-rules/ 
