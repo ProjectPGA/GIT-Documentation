@@ -1,23 +1,31 @@
 import Vue from "vue";
 import VueRouter, { RouteConfig } from "vue-router";
-import Home from "../views/Home.vue";
+
+import GitDescription from "@/views/GitDescription.vue";
+import GitWorkflow from "@/views/GitWorkflow.vue";
+import GitBasics from "@/views/GitBasics.vue";
 
 Vue.use(VueRouter);
 
 const routes: Array<RouteConfig> = [
   {
     path: "/",
-    name: "Home",
-    component: Home,
+    name: "Description",
+    component: GitDescription,
   },
   {
-    path: "/about",
-    name: "About",
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () =>
-      import(/* webpackChunkName: "about" */ "../views/About.vue"),
+    path: "/git-basics",
+    name: "Git Basics",
+    component: GitBasics,
+  },
+  {
+    path: "/git-workflow",
+    name: "Git Workflow",
+    component: GitWorkflow,
+  },
+  {
+    path: "/git-rules",
+    name: "Git Rules",
   },
 ];
 
